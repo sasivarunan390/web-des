@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+
+.main{
+    width:100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bgm.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icon img{
+    width: 100px;
+    float: left;
+    height: 100px;
+    margin-left: -60px;
+}
+
+.vl{
+    border-left: 4px solid lightcyan;
+    height: 100px;
+    width: 10px;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 60px;
+    float: left;
+    padding-top: 10px;
+    margin-top: -100px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color: gold;
+}
+
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 44px;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    margin-top: 13px;
+    margin-right: -4px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 43.5px;
+    background: whitesmoke;
+    border: 1px whitesmoke;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+    transition: 0.5s,0.5s,0.3s;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.btn:hover{
+    color: azure;
+    background-color: darkgreen;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: whitesmoke;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 42px;
+    padding-left: 20px;
+    margin-top: 12%;
+    letter-spacing: 3px;
+}
+
+.imp{
+    font-size: 100px; 
+    font-style: normal;
+    font-family: 'times new roman';
+    letter-spacing: 1.5px;
+}
+
+.content .cn{
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 160px;
+    height: 40px;
+    background-color:darkgreen;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.cn a:hover{
+    color: darkgreen;
+}
+
+.cn:hover{
+    background-color:whitesmoke;
+    transition: ease-in-out;
+    
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height:  35px;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: darkgreen;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+
+}
+
+::placeholder{
+    color: whitesmoke;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: whitesmoke;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: darkgreen;
+    
+
+}
+
+.btnn:hover{
+    background-color: lightgreen;
+    color: whitesmoke;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 25px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: medium;
+}
+
+.form a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: darkgreen;
+    text-decoration: none;
+    
+}
+
+.form .lin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center
+}
+
